@@ -1,0 +1,97 @@
+
+header{
+	background-image: url('http://cursos.en1mes.com/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+	height: 400px;
+	max-width: 100%;
+}
+
+.info{
+	background: #3498db;
+	padding: 50px 0;
+}
+
+	.info__title, .info__content{
+		color:#fff;
+	}
+
+		.info__title{
+			font-size: 3.5rem;
+		}
+
+		.info__content{
+			font-size: 2rem;
+		}
+
+.info2{
+	border-top: 5px dashed #E6E6E6;
+	border-bottom: 5px dashed #E6E6E6;
+	font-size: 2rem;
+	margin-top: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.dateAndDate{
+	border-bottom:  5px dashed #E6E6E6;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.font-weight{
+	font-weight: bold;
+}
+
+.col-header > img{
+	margin-top: 30px;
+}
+
+.col-header > h1{
+	color: #fff;
+	font-size: 6rem;
+	margin-top: 30px;
+}
+
+.col-header > p{
+	color: #fff;
+	margin-top: 30px;
+	font-size: 2rem;
+}
+
+.margin-bottom{
+	margin-bottom: 30px; 
+}
+
+.margin-top{
+	margin-top: 60px; 
+}
+
+@media (max-width: 670px){
+	.col-header > h1{
+		color: #fff;
+		font-size: 4rem;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
